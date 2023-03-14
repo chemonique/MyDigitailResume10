@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta nam="viewport" content="width=device-width, initial-scale=1.0">   
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/stylesheet.css">
+    
+    <title> Resumé 10 </title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar"> 
+    
+    <!--NavBar-->
+    <nav class="navbar fixed-top navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Chemonique Henning</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Home-->
+    <section id="home" class="bg-cover section-home " style="background-image: url(https://i.pinimg.com/564x/8d/a0/dd/8da0dd5dfb62cc1a115222ccb439068d.jpg);">
+      <div class="overlay"></div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 my-4"data-aos="fade-down" data-aos-offset="50" data-aos-duration="800">
+            <h2 class="display-4 " > Welcome<br/></h2>
+            <h4> I'm Chemonique Henning</h4>
+            <p> an aspiring software/frontend developer</p>
+            <a href="#contact" class="btn btn-home rounded-pill">Hire Me</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--About-->
+    <div class="section" id="about">
+      <div class="container ">
+        <div class="row mt-5">
+          <div class="col-12 section-about text-center">
+            <h3> About</h3>
+            <div class="divider"></div>
+          </div>
+        </div>
+        <!--Cards-->
+        <div class="card mt-5">
+          <div class="row mt-1">
+            <!--ProfilePic-->
+            <div class="col-lg-4 col-md-12 text-center">
+              <div class="card-body ">
+                <picture class="img-fluid "data-aos="fade-right" data-aos-offset="120" data-aos-duration="300">
+                  <source media="(max-width: 650px)" srcset="images/profilephoto_small.jpg">
+                  <source media="(max-width: 1000px)" srcset="images/profilephoto_med.jpg">
+                  <img class=" profilephoto  " src="images/profilephoto_lar.jpg" alt="Profile photo">
+              </picture>
+              </div>
+            </div>
+            <!--About,paragraph-->
+            <div class="col-lg-4 col-md-12">
+              <div class="card-body" data-aos="fade-left" data-aos-offset="120" data-aos-duration="600">
+                <div class="h4 mt-0 title">About</div>
+                <p>Hello! I am Chemonique Henning.</p>
+                <P> I am a punctual and motivated individual who is able to work in a busy environment and produce high standards of work. 
+                    I am flexible, reliable and possess excellent time keeping skills. I am a self-motivated, responsible and hard working person. 
+                    I am able to work well under pressure and adhere to strict deadlines.</P>
+              </div>
+            </div>
+            <!--Basic Info-->
+            <div class="col-lg-4 col-md-12">
+              <div class="card-body" data-aos="fade-left" data-aos-offset="120" data-aos-duration="800">
+                <div class="h4 mt-0 title">Basic Information</div>
+                <div class="row">
+                  <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+                  <div class="col-sm-8">18</div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                  <div class="col-sm-8">henningchemonique@gmail.com</div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+                  <div class="col-sm-8">+27 18 293 0343</div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+                  <div class="col-sm-8">Potchefstroom, North-West, South-Africa</div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+                  <div class="col-sm-8">English, Afrikaans</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Experience-->
+    <section id="experience">
+      <div class="col-12 section-about text-center">
+        <h3> Experience</h3>
+        <div class="divider"></div>
+      </div>
+      
+      <div class="container experience">
+        <div class="card mt-5">
+          <div class="row m-0 ">
+            <div class="col-lg-3 text-center text-white experience-header"  >
+              <div class="card-body  "data-aos="fade-right" data-aos-offset="120" data-aos-duration="600" >
+                <p >March 2020 - Present</p>
+                <div class="h5">M-Care Medical Centre Potchefstroom</div>
+              </div>
+           
+            </div>
+            <div class="col-lg-9 experience-body " data-aos="fade-left" data-aos-offset="120" data-aos-duration="600">
+              <div class="card-body ">
+                    <ul type="none"> 
+                      <p class="lead">Assisting the Practice manager my main duties are:</p>
+                        <li>Consolidating the banking statements of 6 doctors.  </li>
+                        <li>Do the Excel Spreadsheets by processing the data of the medical aid statements in order for the payments to be captured on the accounting systems.</li>
+                        <li>Petty Cash is also one of my duties.</li>
+                        <li>Filing of Medical aid statements that have been processed.</li>
+                        <li>Consolidating the Visa Machine totals on a daily basis </li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Education-->
+    <section id="education">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-12 section-education text-center">
+            <h3> Education</h3>
+            <div class="divider"></div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6"data-aos="fade-right" data-aos-offset="120" data-aos-duration="600">
+            <div class="education pt-5">
+              <div class="education-img mx-auto ">
+                <img  src="images/codespacelogo2.jpg" alt="Codespace Logo" >
+                <div class="icon"><a href="http://codespace.co.za/" target="_blank" class="text-black" title="CodeSpace"><i class="bi bi-journal-code"></i></a></div>
+              </div>
+              <div class="mt-5 text-center">
+                <h3> Intro to web at  CodeSpace Academy</a></h3>
+                <p>
+                    In the “intro to web “course I learned the fundamentals of programming and web design, structure web pages using html, 
+                    insert links and graphics into a web page, style web pages using CSS and create well-design page layouts.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6"data-aos="fade-left" data-aos-offset="120" data-aos-duration="600">
+            <div class="education pt-5">
+              <div class="education-img mx-auto">
+                <img src="images/Volkskool.jpg" alt="Volkskool Logo" >
+                <div class="icon"><a href="https://volkiespotch.co.za/" target="_blank" class="text-black"title="Volkiespotch"><i class="bi bi-mortarboard"></i></a></div>
+              </div>
+              <div class="mt-5 text-center">
+                <h3>Matriculated from Hoër Volkskool Potchefstroom 2022</h3>
+                    <ul type="none"> 
+                      <li>Academic colours 2019-2022</li> 
+                      <li>Best Student in IT 2020 and 2021</li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      
+      </div>
+    
+    </section>
+
+    <!--Skills-->
+    <section id="skills">
+      <div class="container section-skills text-center">
+        <div class="row">
+          <div class="col-12  text-center">
+            <h3> Skills</h3>
+            <div class="divider"></div>
+          </div>
+        </div>
+
+        <div class="row gx-4 gy-2">
+          <h5 class="mt-4 mb-3">Professional Skills</h5>
+          <div class="col-md-4 skill "data-aos="zoom-in" data-aos-offset="100" data-aos-duration="200">
+            <div class="icon "><i class="bi bi-filetype-html"></i></div>
+            <p class=" fw-500 text-start mb-2">HTML<span class="float-end">68%</span></p>
+            <div class="progress progress-sm mb-4 ">
+              <div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%; background-color: darkgreen;"></div>
+            </div>
+          </div>
+          <div class="col-md-4 skill"data-aos="zoom-in" data-aos-offset="100" data-aos-duration="400">
+            <div class="icon "><i class="bi bi-filetype-css"></i></div>
+            <p class=" fw-500 text-start mb-2">CSS <span class="float-end">68%</span></p>
+            <div class="progress progress-sm mb-4 ">
+              <div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%; background-color: darkgreen;"></div>
+            </div>
+          </div>
+          <div class="col-md-4 skill"data-aos="zoom-in" data-aos-offset="100" data-aos-duration="600">
+            <div class="icon "><i class="bi bi-filetype-js"></i></div>
+            <p class=" fw-500 text-start mb-2">Javascript<span class="float-end">0%</span></p>
+            <div class="progress progress-sm mb-4 ">
+              <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%; background-color: darkgreen;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row gx-4 gy-2">
+          <h5 class="mt-4 mb-3">Personal Skills</h5>
+          <div class="col-md-4 skill"data-aos="zoom-in" data-aos-offset="100" data-aos-duration="200">
+            <div class="icon "><i class="bi bi-hourglass-split"></i></div>
+            <p class=" fw-500 text-start mb-2">Time Management <span class="float-end">96%</span></p>
+            <div class="progress progress-sm mb-4 ">
+              <div class="progress-bar" role="progressbar" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100" style="width: 96%; background-color: darkgreen;"></div>
+            </div>
+          </div>
+          <div class="col-md-4 skill" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="400">
+            <div class="icon "><i class="bi bi-puzzle"></i></div>
+            <p class=" fw-500 text-start mb-2">Problem Solving <span class="float-end">82%</span></p>
+            <div class="progress progress-sm mb-4 ">
+              <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width: 82%; background-color: darkgreen;"></div>
+            </div>
+          </div>
+          <div class="col-md-4 skill" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="600">
+            <div class="icon "><i class="bi bi-zoom-in"></i></div>
+            <p class=" fw-500 text-start mb-2">Detailed Oriented <span class="float-end">80%</span></p>
+            <div class="progress progress-sm mb-4 ">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: darkgreen;"></div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        
+        
+      
+      </div>
+    
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="bg-cover section-contact" style="background-image: url(https://i.pinimg.com/564x/8d/a0/dd/8da0dd5dfb62cc1a115222ccb439068d.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-12 section-contact text-center">
+            <h3> Get in touch</h3>
+            <div class="divider"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form action="#" class="row g-4">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Full Name">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" placeholder="Email address">
+              </div>
+              <div class="form-group col-md-12">
+                <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Ask me any questions"></textarea>
+              </div>
+              <div class="text-center"> 
+              <buttun class="btn btn-main rounded-pill" data-bs-toggle="modal" data-bs-target="#modalmessage"  > Send Message</buttun>
+            </div> 
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer >
+      <div class="container text-center p-2">
+        <div class="row"> 
+          <div class="col-md-12 ">
+            <a href="https://www.linkedin.com/in/chemonique-henning-75b24419a/" target="_blank" class="icon m-2"><i class="bi bi-linkedin"></i></a>
+            <a href="http://henningchemonique@gmail.com/" target="_blank" class="icon m-2"><i class="bi bi-envelope"></i></a>   
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Modal-->
+    <div class="modal fade" id="modalmessage" tabindex="-1" >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalmessage"></h1>
+          </div>
+          <div class="modal-body">
+              <p class="lead">Thank you for submitting</p> 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> 
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
+  </body>
+
+ </html>
