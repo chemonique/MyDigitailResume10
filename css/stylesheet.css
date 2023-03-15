@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap'); /*link to the font that I used*/
 
 body{
     font-family: "Tilt Neon",sans-serif;
@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
-a{
+a{ /*ancer for scrollspy*/
     text-decoration: none;
     transition: all 0.4s ease;
     font-weight: 700;
@@ -29,7 +29,7 @@ section{
     position: relative;
 }
  
-.overlay{
+.overlay{ /*green gradient that is over the background image*/
     position: absolute;
     top: 0;
     left: 0;
@@ -56,7 +56,7 @@ section{
     transition: all 0.4s ease;
 }
 
-.btn:hover{
+.btn:hover{ 
     transform: scale(1.1);
 }
 
@@ -79,11 +79,14 @@ section{
 img{
     width: 100%;
 }
+
 .profilephoto{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     border-radius:250px;
     border: 5px solid #3f784c;
+    margin-left: 23px;
+    
 }
 
 .experience-header{
@@ -133,9 +136,8 @@ img{
 .section-skills .icon i{
     background: -webkit-linear-gradient(rgb(166, 207, 127),rgb(63, 120, 76) );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 
-  54px;
+  -webkit-text-fill-color: transparent; 
+  font-size: 54px;
 }
 
  .progress.progress-bar{
@@ -181,6 +183,15 @@ footer .icon i{
     .experience-header p {
         font-size: larger;
     }
-    
+   .profilephoto{
+        width: 50%;
+        height: 50%;
+        margin-left: 0;
+    }
+
   }
+
+  
+
+
  
